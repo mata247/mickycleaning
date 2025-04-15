@@ -1,0 +1,195 @@
+:root {
+    --bs-font-sans-serif: 'Rubik', sans-serif;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    background-image: url('../img/cleaning-svgrepo-com.svg'); /* Replace with your SVG path */
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #131212;
+    margin: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Navigation */
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: #3c8dbc;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .navbar {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #3c8dbc;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(199, 193, 193);
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .jumbotron1 {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(96, 172, 185, 0.479);
+    color: white;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.637);
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Services */
+  .icon-list {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.1rem;
+  }
+  
+  .icon-list li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .icon-list i {
+    font-size: 2.2rem;
+    margin-right: 15px;
+  }
+  
+  /* Icon Colors per service */
+  .icon-list li:nth-child(1) i { color: #28a745; }
+  .icon-list li:nth-child(2) i { color: #007bff; }
+  .icon-list li:nth-child(3) i { color: #fd7e14; }
+  .icon-list li:nth-child(4) i { color: #6f42c1; }
+  .icon-list li:nth-child(5) i { color: #e83e8c; }
+  .icon-list li:nth-child(6) i { color: #20c997; }
+  .icon-list li:nth-child(7) i { color: #ffc107; }
+  
+  .icon-list strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .contact-section h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section a {
+    color: #3c8dbc;
+    font-weight: 600;
+  }
+  
+  .contact-section a:hover {
+    color: #ffcc00;
+  }
+  
+  .contact-section form {
+    max-width: 700px;
+    margin: 2rem auto;
+    text-align: left;
+    background-color: rgba(76, 92, 92, 0.158);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section label {
+    font-weight: 600;
+  }
+  
+  .contact-section input,
+  .contact-section textarea,
+  .contact-section button {
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #3c8dbc;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    border-top: 2px solid #2e6da4;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.3rem;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+  /* General Responsive Fixes */
+  @media (max-width: 768px) {
+    .icon-list li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .jumbotron1 .row {
+      flex-direction: column-reverse;
+    }
+  
+    .contact-section form {
+      padding: 1rem;
+    }
+  }
+  
+  /* Utility Styles */
+  .calls {
+    font-size: 1.5em;
+    background-color: rgba(240, 243, 240, 0.993);
+    padding: 15px;
+    margin: 15px auto;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Optional icon animation */
+  .icon-list i:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
