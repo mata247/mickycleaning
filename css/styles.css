@@ -6,8 +6,7 @@
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     font-size: 1.1rem;
-    background-image: url('../img/cleaning-svgrepo-com.svg'); /* Replace with your SVG path */
-    background-color: #f3f3f3;
+    background-color: #af250da6;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,7 +23,7 @@
   nav {
     position: sticky;
     top: 0;
-    background-color: #3c8dbc;
+    background-color: #b8674e;
     z-index: 1000;
     padding: 10px;
   }
@@ -32,15 +31,21 @@
   .navbar {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #3c8dbc;
+    background-color: #daa67c;
     padding: 10px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-style: solid;
   }
   
   .navbar-nav .nav-link {
-    color: rgb(199, 193, 193);
+    color: rgb(12, 2, 2);
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+  }
+
+  .logo-text {
+    font-size: 24px;
+    color: #000;
   }
   
   .navbar-nav .nav-link:hover {
@@ -51,8 +56,8 @@
   .jumbotron1 {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: rgba(96, 172, 185, 0.479);
-    color: white;
+    background-color: rgba(253, 255, 255, 0.973);
+    color: rgb(14, 13, 13);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.637);
     padding: 2rem;
     margin-bottom: 2rem;
@@ -134,11 +139,11 @@
   /* Footer */
   footer {
     text-align: center;
-    background-color: #3c8dbc;
+    background-color: #0f0f0f;
     color: white;
     padding: 1rem 0;
     margin-top: 3rem;
-    border-top: 2px solid #2e6da4;
+    border-top: 2px solid #e6812f;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }
@@ -150,7 +155,7 @@
   }
   
   .social-icons a:hover {
-    color: #ffcc00;
+    color: #71e624be;
   }
   
   /* General Responsive Fixes */
@@ -192,4 +197,18 @@
     transform: scale(1.2);
     transition: transform 0.3s ease;
   }
+
+  section {
+    
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(249, 250, 250);
+    border-radius: 15px; /* <- This adds the rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+  }
   
+  .container {
+    border-radius: 15px;
+    
+  }
